@@ -5,9 +5,7 @@ class  Car extends React.Component{
         super(props);
         this.state = {favoritecolor: "blue"};
     }
-    showalert = (event) =>{
-        this.props.showalert(event.target.value);
-    }
+    
     render() {
         return (
             <React.Fragment>
